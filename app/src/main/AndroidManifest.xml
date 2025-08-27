@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IMCCalculator">
         <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".IMCCalculatorActivity"
             android:exported="true">
             <intent-filter>
